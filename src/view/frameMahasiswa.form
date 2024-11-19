@@ -28,16 +28,12 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jScrollPane1" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" pref="1316" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
           <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="808" max="32767" attributes="0"/>
-              <Component id="bPrev" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
-              <Component id="bNext" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
               <Component id="bClose" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
           </Group>
@@ -50,11 +46,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="bPrev" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="bNext" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="bClose" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
+              <Component id="bClose" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="46" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -116,22 +108,6 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="bPrev">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Prev"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bPrevActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="bNext">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Next"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bNextActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JButton" name="bClose">
       <Properties>
         <Property name="text" type="java.lang.String" value="Close"/>
